@@ -7,8 +7,10 @@ Drag and Drop for guis on roblox
 
 
 
+First put the code in a module script, require the module in a local script
 
-Exemple how to use:
+
+Example how to use:
 ![imagen](https://github.com/user-attachments/assets/d2b38acb-65c5-4609-9caf-387a7c005eca)
 
 
