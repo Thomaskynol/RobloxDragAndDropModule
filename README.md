@@ -19,12 +19,12 @@ you MUST to set the object that will move!
 ![imagen](https://github.com/user-attachments/assets/d060240c-cc7a-4a9e-b29f-8ce71f1a78f8)
 
 
-connect start and end inputs of the frame this:
+connect start and end inputs of the frame:
 
 ![imagen](https://github.com/user-attachments/assets/6eb1ef32-d73d-4878-8fb9-e8d2ad533401)
 
 
-and connect the function "Update()" with a HeartBeat, RenderStepped or InputChanged of the run service
+and connect the function "Update()" with a HeartBeat, RenderStepped or InputChanged
 ![imagen](https://github.com/user-attachments/assets/d76c1974-39e2-47b0-917d-aaa039238a65)
 
 
