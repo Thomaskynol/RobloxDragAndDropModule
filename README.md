@@ -33,7 +33,7 @@ settings:
 ![imagen](https://github.com/user-attachments/assets/cba21123-23db-4c02-8387-017729f8f159)
 
 
-dragAndDropModule.usePixelDelayToMove ----> move the mouse a certain amount of pixels away before starting the drag
+dragAndDropModule.usePixelDelayToMove ----> need move the mouse a certain amount of pixels away before starting the drag
 
 dragAndDropModule.pixelDelayToMove ----> pixel quantity to move(if you are using pixel delay)
 
