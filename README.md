@@ -15,6 +15,9 @@ connect start and end inputs of the frame this:
 
 and connect the function "Update()" with a HeartBeat, RenderStepped or InputChanged of the run service
 
+![imagen](https://github.com/user-attachments/assets/d76c1974-39e2-47b0-917d-aaa039238a65)
+
+
 settings:
 
 ![imagen](https://github.com/user-attachments/assets/cba21123-23db-4c02-8387-017729f8f159)
