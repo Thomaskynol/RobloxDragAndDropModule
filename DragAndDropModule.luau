@@ -2,7 +2,7 @@
 local Players = game:GetService("Players")
 
 -- Starting Objects
-local dragAndDropModule = {}
+dragAndDropModule = {}
 local objectToMove
 
 local move = false
@@ -16,9 +16,9 @@ local lastSize
 local endStart = true
 
 -- settings
-local usePixelDelayToMove = false
-local pixelDelayToMove = 20
-local backToPosAfterDrag = true
+dragAndDropModule.usePixelDelayToMove = false
+dragAndDropModule.pixelDelayToMove = 20
+dragAndDropModule.backToPosAfterDrag = false
 
 -- Main
 function dragAndDropModule.setObjectToMove(passedObject)
@@ -55,7 +55,7 @@ function dragAndDropModule.frameInteractEnd(input)
 		local mousePos = game.Players.LocalPlayer:GetMouse()
 		local backToPlace = true
 
-		if backToPosAfterDrag then
+		if dragAndDropModule.backToPosAfterDrag then
 			if backToPlace then
 				objectToMove.Position = lastPosition
 				objectToMove.Size = lastSize
@@ -70,9 +70,9 @@ end
 function dragAndDropModule.updateMove()
 	local mousePos = game.Players.LocalPlayer:GetMouse()
 	if move then
-		if usePixelDelayToMove then
-			if mousePos.X-firstClickPosX > pixelDelayToMove or mousePos.X-firstClickPosX < -pixelDelayToMove or
-				mousePos.Y-firstClickPosY > pixelDelayToMove or mousePos.Y-firstClickPosY < -pixelDelayToMove then passedPixelDelay = true 
+		if dragAndDropModule.usePixelDelayToMove then
+			if mousePos.X-firstClickPosX > dragAndDropModule.pixelDelayToMove or mousePos.X-firstClickPosX < -dragAndDropModule.pixelDelayToMove or
+				mousePos.Y-firstClickPosY > dragAndDropModule.pixelDelayToMove or mousePos.Y-firstClickPosY < -dragAndDropModule.pixelDelayToMove then passedPixelDelay = true 
 			end
 
 			if passedPixelDelay then
