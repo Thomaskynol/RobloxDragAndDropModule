@@ -10,6 +10,7 @@
 
 is the movement of dragging an item and then releasing it
 
+# How To Use:
 
 First put the code in a module script, require the module in a local script
 
