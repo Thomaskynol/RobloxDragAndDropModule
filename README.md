@@ -1,10 +1,14 @@
 # RobloxDragAndDropModule
-Drag and Drop for guis on roblox
+
+
+# What Is Drag and Drop for Guis: 
 
 
 ![dragAndDrop](https://github.com/user-attachments/assets/bcb6b59c-6ee0-499b-bfb3-a6c564171577)
 
 
+
+is the movement of dragging an item and then releasing it
 
 
 First put the code in a module script, require the module in a local script
