@@ -1,3 +1,23 @@
+# Drag and Drop System for Roblox Studio
+
+Este repositório contém um módulo Lua para o Roblox Studio que implementa um sistema de drag and drop para interfaces gráficas. O módulo permite mover objetos na tela ao clicar e arrastar, com opções configuráveis como atraso de pixel antes do movimento e a habilidade de retornar à posição original após o arrasto.
+
+## Funcionalidades
+
+- **Arrastar e soltar:** Permite aos jogadores arrastarem elementos de interface (GUIs) com o mouse ou toque.
+- **Atraso de pixel opcional:** Define um número de pixels que o mouse deve se mover antes de iniciar o arrasto.
+- **Retorno à posição original:** Opção para fazer com que o objeto volte à posição original após ser solto.
+
+## Como usar
+
+### Inicializando o Módulo
+
+1. **Importe o módulo** para o seu script no Roblox Studio:
+   ```lua
+   local dragAndDropModule = require(path.to.dragAndDropModule)
+
+
+
 # RobloxDragAndDropModule
 
 
