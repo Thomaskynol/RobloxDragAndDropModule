@@ -41,7 +41,7 @@ This repository contains a Lua module for Roblox Studio that implements a drag a
 ### Usage Example
 
 ```lua
-local dragAndDropModule = require(game.ReplicatedStorage:WaitForChild("dragAndDropModule"))
+local dragAndDropModule = require(game.ReplicatedStorage.dragAndDropModule)
 
 -- Set the object that will be moved
 dragAndDropModule.setObjectToMove(script.Parent)
